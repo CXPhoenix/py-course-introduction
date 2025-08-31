@@ -4,13 +4,13 @@ layout: section
 
 # 話說電腦...？
 
-## 等等，不是教 Python 嗎？
+## 等等，不是教 [Python]{.font-mono style="display: inline;"} 嗎？
 
 ---
 layout: image
 ---
 
-# 要談 Python ，得先談「電腦」
+# 要談 [Python]{.font-mono style="display: inline;"}，得先談「電腦」
 
 ![real python](/real-python.png)
 
@@ -24,7 +24,7 @@ layout: image
 
 # 電腦究竟是個什麼？
 
-Computer {.font-bold .font-mono} 
+**Computer** {.font-mono} 
 
 ::div {.pl-8 .font-mono} 
 noun. `/kəmˈpjuː.t̬ɚ/`
@@ -59,8 +59,8 @@ computer{.font-mono} ...
 
 ::ul {.pt-6 space-y-8}
 * 以劍橋辭典的定義來說： \
-    電腦（[Computer]{.font-bold .font-mono}）是一個可以用來儲存、整理、尋找文字、數字、圖片等資料，也可以用來計算數字，或可以用來控制其他機器的[電子機器]{.text-rose-600 .text-4xl}。
-* 以[教育部教育百科](https://pedia.cloud.edu.tw/Entry/WikiContent?title=%E9%9B%BB%E8%85%A6&search=%E9%9B%BB%E8%85%A6){.underline .text-blue-800}的解釋： \
+    電腦（**[Computer]{.font-mono}**）是一個可以用來儲存、整理、尋找文字、數字、圖片等資料，也可以用來計算數字，或可以用來控制其他機器的[電子機器]{.text-rose-600 .text-4xl}。
+* 以[教育部教育百科](https://pedia.cloud.edu.tw/Entry/WikiContent?title=%E9%9B%BB%E8%85%A6&search=%E9%9B%BB%E8%85%A6){.underline .underline-offset-4 .text-blue-800}的解釋： \
     一種利用電子學原理，根據一系列指令來對資料進行處理的機器。
 ::
 
@@ -84,7 +84,7 @@ Python {.font-mono}
 
 ---
 
-# 你一定要記得的概念
+# RECAP {.font-mono}
 
 ::div {.h-full .flex .flex-col .justify-center .items-center .gap-8 .pb-12}
 「電腦」就是「計算機」， {.text-5xl}

@@ -29,6 +29,7 @@ function filterPageNumber(nav) {
   const filteredPages = slides.filter(
     (v) =>
       v.no !== 1 &&
+      !v.meta?.slide?.frontmatter?.skipToc &&
       props.tocLayoutIncludes.includes(v.meta?.layout ?? "default")
   );
   const filteredPageNumbers = filteredPages.map((v) => v.no);
@@ -52,6 +53,6 @@ function filterPageNumber(nav) {
 
 <style scoped>
 ol {
-  @apply list-decimal text-4xl pl-14 pt-3 space-y-4;
+  @apply list-decimal text-4xl pl-20 pt-4 space-y-4;
 }
 </style>

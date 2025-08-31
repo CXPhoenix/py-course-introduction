@@ -17,13 +17,13 @@ skipPageNumberLayouts:
   - cover
 ---
 
-# Python 基礎課程
+# [Python]{.font-mono style="display: inline;"} 基礎課程
 
 ## 程式設計基本概念
 
 ---
 
-# OUTLINE
+# OUTLINE {.font-mono}
 
 <CustomToc tocLayoutIncludes="['section']"/>
 
@@ -32,5 +32,26 @@ src: pages/computer.md
 ---
 
 ---
-src : pages/programming-language.md
+src: pages/programming-intro.md
 ---
+
+---
+src: pages/language-intro.md
+---
+
+---
+src: pages/learning-language.md
+---
+
+---
+src: pages/conclusion.md
+---
+
+---
+layout: section
+skipToc: true
+---
+
+# 謝謝大家～
+
+## 下個單元再見！
